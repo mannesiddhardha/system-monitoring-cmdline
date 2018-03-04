@@ -1,0 +1,31 @@
+CPU:
+
+top
+ps aux
+w
+who
+uptime
+lsof
+jps -l
+last
+sysctl hw.activecpu
+stat filename
+iostat
+
+Memory:
+
+df -h
+du -sh
+vm_stat
+ulimit -a
+leaks
+sysctl -h hw.memsize
+
+NETWORK:
+
+netstat -l
+dig
+nslookup
+traceroute
+ping
+ifconfig
