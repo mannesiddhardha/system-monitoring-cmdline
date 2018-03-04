@@ -11,6 +11,7 @@ last
 sysctl hw.activecpu
 stat filename
 iostat
+tail -f /var/log/system.log
 
 Memory:
 
